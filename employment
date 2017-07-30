@@ -1,0 +1,44 @@
+
+HIRE-ASSISTANT{
+
+1 best=0;
+2 for i=1 to n
+	interview candidate i
+	if candidate i better than best
+		best=i;
+		hire candidate i
+
+}
+
+
+/*面试的费用较低 为ci 雇佣的费用较高 为ch 假设m是雇佣的人数
+该算法的总费用为O(nci+mch);
+我们总会面试n个人，费用为O(nci),所以计算该算法的费用就是计算雇佣的人数
+
+指示器随机变量指向一个事件A
+E[ X(A)]=Pr{A}  一个事件A对应的指示器随机变量XA的期望值=A事件发生的概率
+
+设X是一个随机变量，其值等于我们雇佣一个新办公助理的次数。
+
+Xi表示指向第i个应聘者被雇佣的随机变量指示器
+E[Xi]=pr{i}    pr{i}表示第i个应聘者被雇佣的概率
+E[Xi]=1/i
+
+E=E[∑(i=1TOn)Xi]=∑(i=1TOn)E[Xi]=∑(i=1TOn)1/i=lnn+O(i)//调和级数的前n项和为lnn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
