@@ -1,0 +1,14 @@
+weihu dui de xingzhi
+
+weihu mou yige jiedian duixingzhi
+
+jiandui
+
+weihu cong 1 to n/2 meige jiedian duixingzhi
+
+duipaixu
+1.jianlizuidadui
+2.for i=A.length downto 2
+	swap(A[i],A[1]);  //ba zuidazhi fangzai i weizhi
+	A.heap-size--;
+	weihu duixuxing
