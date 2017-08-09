@@ -1,0 +1,13 @@
+MST-PRIM(G,w,r)
+for each v shuyu G.V
+	v.key=wuqiongda
+	v.pai=NIL
+r.key=0
+Q=kongji
+Q=G.V
+while Q!=kongji
+	u=MIN-KEY(Q);
+	for v shuyu G.Adj[u]
+		if v shuyu Q and v.key>w(u,v)
+			v.pai=u
+			v.key=w(u,v)
